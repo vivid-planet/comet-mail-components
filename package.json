@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
+    "files": [
+        "lib/*"
+    ],
     "repository": "git@github.com:vivid-planet/comet-mail-components.git",
     "scripts": {
         "build": "tsc --project ./tsconfig.json",
