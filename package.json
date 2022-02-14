@@ -14,10 +14,13 @@
     },
     "repository": "git@github.com:vivid-planet/comet-mail-components.git",
     "scripts": {
-        "build": "tsc --project ./tsconfig.json",
-        "lint:tsc": "tsc --noEmit",
         "start": "start-storybook -p 36245",
-        "build-storybook": "build-storybook"
+        "build": "tsc --project ./tsconfig.json",
+        "build-storybook": "build-storybook",
+        "lint": "npm run lint:eslint && npm run lint:tsc",
+        "lint:eslint": "eslint --ext .ts,.tsx,.js,.jsx,.json,.md src/",
+        "prelint:tsc": "npm run build",
+        "lint:tsc": "tsc --noEmit"
     },
     "peerDependencies": {
         "react": "^17.0.2",
