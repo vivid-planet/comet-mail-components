@@ -14,5 +14,6 @@
         "rootDir": "src"
     },
     "compileOnSave": false,
-    "include": ["./src", "./.storybook"]
+    "include": ["./src", "./.storybook"],
+    "exclude": ["**/*.stories.tsx"]
 }
