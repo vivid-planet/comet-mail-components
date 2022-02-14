@@ -7,6 +7,11 @@
     "files": [
         "lib/*"
     ],
+    "packageManager": "yarn@3.1.1",
+    "engines": {
+        "node": "14",
+        "yarn": "3"
+    },
     "repository": "git@github.com:vivid-planet/comet-mail-components.git",
     "scripts": {
         "build": "tsc --project ./tsconfig.json",
@@ -19,8 +24,6 @@
         "react-dom": "^17.0.2"
     },
     "devDependencies": {
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
         "@babel/core": "^7.16.12",
         "@storybook/addon-actions": "^6.4.17",
         "@storybook/addon-essentials": "^6.4.17",
@@ -40,6 +43,8 @@
         "eslint-plugin-storybook": "^0.5.6",
         "eslint-plugin-unused-imports": "^2.0.0",
         "prettier": "^2.5.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
         "typescript": "^4.5.5"
     }
 }
