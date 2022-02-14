@@ -1,6 +1,7 @@
 {
     "name": "@comet/mail-components",
     "version": "1.0.0",
+    "license": "BSD-2-Clause",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
